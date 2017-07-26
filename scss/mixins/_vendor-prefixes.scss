@@ -8,6 +8,11 @@
             transition: $arg;
 }
 
+@mixin transform ($arg) {
+    -webkit-transform: $arg;
+            transform: $arg;
+}
+
 @mixin placeholder {
   &::-webkit-input-placeholder   {@content}
   &:-moz-placeholder             {@content}
