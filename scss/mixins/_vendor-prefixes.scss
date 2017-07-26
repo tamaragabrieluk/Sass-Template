@@ -1,0 +1,20 @@
+// ============================================================ 
+                        //VENDOR PREFIXES
+//============================================================ 
+
+
+@mixin transition ($arg : all .3s ease-in-out) {
+    -webkit-transition: $arg;
+            transition: $arg;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder   {@content}
+  &:-moz-placeholder             {@content}
+  &::-moz-placeholder            {@content}
+  &:-ms-input-placeholder        {@content}  
+  &::placeholder                 {@content}
+}
+
+
+

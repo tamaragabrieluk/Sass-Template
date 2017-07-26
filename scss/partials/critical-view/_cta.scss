@@ -1,0 +1,35 @@
+/* ============================================================ 
+                            CTAs
+  ============================================================ */
+
+.cta {
+    text-align: center;
+    display: block;
+    box-shadow: 0;
+    text-decoration: none;
+    cursor: pointer;
+    @include transition;
+
+    &--primary {
+        background-color: $colour--primary;
+        color: #fff;
+    }
+
+    &--secondary {
+        background-color: $colour--secondary;
+        color: #fff;
+    }
+
+    &--primary,
+    &--secondary {
+        &:hover, 
+        &:active {
+            text-decoration: none;
+        }
+    }
+
+
+// ---------------------- RESPONSIVE: MEDIA QUERIES ----------------------
+
+}
+
