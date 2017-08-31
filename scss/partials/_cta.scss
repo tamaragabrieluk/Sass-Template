@@ -10,20 +10,24 @@
     cursor: pointer;
     @include transition;
 
+	
+	&--primary, 
+	&--secondary {
+		color: #fff;
+	}
+	
     &--primary {
         background-color: $colour--primary;
-        color: #fff;
     }
 
     &--secondary {
         background-color: $colour--secondary;
-        color: #fff;
     }
 
-    &--primary,
-    &--secondary {
+    &--primary, 
+	&--secondary {
         &:hover, 
-        &:active {
+		&:active {
             text-decoration: none;
         }
     }

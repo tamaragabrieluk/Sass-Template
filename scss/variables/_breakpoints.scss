@@ -1,8 +1,21 @@
-// ============================================================ 
-                        // VARIABLES
+// =========================================================== 
+
+                        // BREAKPOINTS
+
 //============================================================ 
 
-$breakpoint--sm     : 576px;
-$breakpoint--md     : 767px;
-$breakpoint--lg     : 991px;
-$breakpoint--xl     : 1199px;
+/* 
+	Breakpoints - upto these sizes because these are max-width
+	e.g. 
+	@media screen and (max-width:$breakpoint--medium) {
+		code goes here for anything you want to show up to 991px
+		becuase a large screen is from 992px to 1999px
+	}
+*/ 
+
+$breakpoint--large 		: 1199px; /* Becuase xlarge starts from 1200 as per Bootstrap grid */
+$breakpoint--medium 	: 991px; /* Becuase large starts from 992 as per Bootstrap grid */
+$breakpoint--small 		: 767px; /* Becuase medium starts from 768 as per Bootstrap grid */
+$breakpoint--xsmall 	: 575px; /* Becuase small starts from 576 as per Bootstrap grid */
+
+

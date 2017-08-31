@@ -1,0 +1,52 @@
+/* ============================================================ 
+                            UTILITIES
+  ============================================================ */
+
+.u {
+	& __text {
+		
+		/* -------------- TEXT COLOURS */
+	
+		&--white {
+			color: #fff;
+		}
+		
+		&--primary {
+			color: $colour--primary;
+		}
+		
+		&--secondary {
+			color: $colour--secondary;
+		}
+		
+		
+		/* -------------- TEXT SIZES */
+		
+		&--xl {
+			font-size: 6rem;
+		}
+		
+		&--lg {
+			font-size: 3rem;
+		}
+		
+		&--md {
+			font-size: 1.5rem;
+		}
+		
+		&--sm {
+			font-size: 0.9rem;
+		}
+		
+		&--smallprint {
+			font-size: 0.7rem;
+		}
+	}
+
+    // ---------------------- RESPONSIVE: MEDIA QUERIES ----------------------
+}
+
+
+.hidden {
+	display: none;
+}
